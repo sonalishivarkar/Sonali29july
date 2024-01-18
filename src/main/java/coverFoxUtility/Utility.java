@@ -15,8 +15,8 @@ import org.testng.Reporter;
 
 public class Utility {
 	public static String readDataFromExcel(int row,int cell) throws EncryptedDocumentException, IOException {
-		Reporter.log("reding data from excel",true);
-		FileInputStream myfile=new FileInputStream("D:\\Sonali\\Excel1.xlsx");
+		//Reporter.log("reding data from excel",true);
+		FileInputStream myfile=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\Excel1.xlsx");
 		  org.apache.poi.ss.usermodel.Sheet mysheet = WorkbookFactory.create(myfile).getSheet("CoverFoxData");
 		  String data = mysheet.getRow(row).getCell(cell).getStringCellValue();
 		  return data;

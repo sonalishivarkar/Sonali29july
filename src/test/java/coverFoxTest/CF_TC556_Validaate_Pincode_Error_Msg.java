@@ -64,8 +64,9 @@ public class CF_TC556_Validaate_Pincode_Error_Msg extends Base {
   public void Validaate_Pincode_Error_Msg() {
 	  Reporter.log("_Validaate_Pincode_Error_Msg",true);
 	 boolean result= addressDetails.validatePincodeErrorMsg();
-			 Assert.assertTrue(result,"Pincode error msg not displayed,TC fail");
-			 Reporter.log("TC is passed",true);
+	 
+			 Assert.assertTrue(result,"Pincode error msg not displayed,TC failed");
+			 Reporter.log("TC is pass",true);
   }
   @AfterMethod
   public void closeBrowser() throws InterruptedException

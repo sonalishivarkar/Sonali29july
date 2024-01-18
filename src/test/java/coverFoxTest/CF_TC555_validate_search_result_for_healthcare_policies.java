@@ -2,6 +2,7 @@ package coverFoxTest;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -16,6 +17,7 @@ import coverFoxUtility.Utility;
 @Listeners(listener.ListenerCoverFox.class)
 
 public class CF_TC555_validate_search_result_for_healthcare_policies extends Base{
+	public static Logger logger;
 	coverFoxPOM.CoverFoxHomePage home;
 	coverFoxPOM.CoverFoxHealthPlanPage healthPlan;
 	coverFoxPOM.CoverFoxAddressDetailsPage addressDetails;
