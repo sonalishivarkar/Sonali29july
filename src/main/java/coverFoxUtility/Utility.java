@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Properties;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -31,5 +32,7 @@ public static void takeScreenShot(WebDriver driver,String TCID) throws IOExcepti
 	Reporter.log("saved screenshot at"+dest,true);
 	FileHandler.copy(src, dest);
 	
-}}
+}
+
+}
 

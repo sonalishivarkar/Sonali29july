@@ -62,17 +62,23 @@ public class CF_TC556_Validaate_Pincode_Error_Msg extends Base {
 	}
   @Test
   public void Validaate_Pincode_Error_Msg() {
-	  Reporter.log("_Validaate_Pincode_Error_Msg",true);
-	 boolean result= addressDetails.validatePincodeErrorMsg();
-	 
-			 Assert.assertTrue(result,"Pincode error msg not displayed,TC failed");
-			 Reporter.log("TC is pass",true);
+	
+	 // Reporter.log("Validating pinCode Error msg", true);
+		//boolean result = addressDetails.validatePincodeErrorMsg();
+		//Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
+		//Reporter.log("TC is passed", true);
+		
+		Assert.fail();
+		Reporter.log("Validating pinCode Error msg", true);
+		boolean result = addressDetails.validatePincodeErrorMsg();
+		Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
+		Reporter.log("TC is passed", true);
   }
   @AfterMethod
   public void closeBrowser() throws InterruptedException
   {
   	  Reporter.log("closing browser",true);
   	  Thread.sleep(5000);
-  	  driver.close();
+  	closeCoverFox();
   }
 }

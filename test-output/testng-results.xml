@@ -5,114 +5,44 @@
       <![CDATA[launching driver]]>
     </line>
     <line>
-      <![CDATA[clicking gender button]]>
-    </line>
-    <line>
-      <![CDATA[handling dropdown button]]>
-    </line>
-    <line>
-      <![CDATA[clicking on next button]]>
-    </line>
-    <line>
-      <![CDATA[entering pin]]>
-    </line>
-    <line>
-      <![CDATA[entering mobile]]>
-    </line>
-    <line>
-      <![CDATA[click on continue]]>
-    </line>
-    <line>
-      <![CDATA[Validaate_Pincode_Error_Msg]]>
-    </line>
-    <line>
       <![CDATA[Taking Screenshot]]>
     </line>
     <line>
-      <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotValidaate_Pincode_Error_Msg_2024.01.19.00.01.05.png]]>
+      <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotValidaate_Pincode_Error_Msg_2024.01.26.16.03.54.png]]>
     </line>
     <line>
       <![CDATA[closing browser]]>
     </line>
+    <line>
+      <![CDATA[closing driver]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-01-19T00:00:47 IST" name="Default suite" finished-at="2024-01-19T00:01:10 IST" duration-ms="22639">
+  <suite started-at="2024-01-26T16:03:39 IST" name="Default suite" finished-at="2024-01-26T16:04:00 IST" duration-ms="21160">
     <groups>
     </groups>
-    <test started-at="2024-01-19T00:00:47 IST" name="Default test" finished-at="2024-01-19T00:01:10 IST" duration-ms="22639">
+    <test started-at="2024-01-26T16:03:39 IST" name="Default test" finished-at="2024-01-26T16:04:00 IST" duration-ms="21160">
       <class name="coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@2b71e916]" started-at="2024-01-19T00:00:47 IST" name="launchBrowser" finished-at="2024-01-19T00:00:53 IST" duration-ms="5652" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@776aec5c]" started-at="2024-01-26T16:03:39 IST" name="launchBrowser" finished-at="2024-01-26T16:03:46 IST" duration-ms="6419" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[launching driver]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@2b71e916]" started-at="2024-01-19T00:00:53 IST" name="enterMemberDetails" finished-at="2024-01-19T00:01:00 IST" duration-ms="6669" status="PASS">
+        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@776aec5c]" started-at="2024-01-26T16:03:46 IST" name="enterMemberDetails" finished-at="2024-01-26T16:03:54 IST" duration-ms="8277" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[clicking gender button]]>
-            </line>
-            <line>
-              <![CDATA[handling dropdown button]]>
-            </line>
-            <line>
-              <![CDATA[clicking on next button]]>
-            </line>
-            <line>
-              <![CDATA[entering pin]]>
-            </line>
-            <line>
-              <![CDATA[entering mobile]]>
-            </line>
-            <line>
-              <![CDATA[click on continue]]>
-            </line>
           </reporter-output>
         </test-method> <!-- enterMemberDetails -->
-        <test-method signature="Validaate_Pincode_Error_Msg()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@2b71e916]" started-at="2024-01-19T00:01:00 IST" name="Validaate_Pincode_Error_Msg" finished-at="2024-01-19T00:01:05 IST" duration-ms="5029" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="Validaate_Pincode_Error_Msg()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@776aec5c]" started-at="2024-01-26T16:03:54 IST" name="Validaate_Pincode_Error_Msg" finished-at="2024-01-26T16:03:54 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".error\-ui"}
-  (Session info: chrome=120.0.6099.218)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41b03f38baeadd46d689d28aae9efb52, findElement {using=class name, value=error-ui}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.218, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SHIVAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57801/devtoo..., se:cdpVersion: 120.0.6099.218, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41b03f38baeadd46d689d28aae9efb52]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".error\-ui"}
-  (Session info: chrome=120.0.6099.218)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41b03f38baeadd46d689d28aae9efb52, findElement {using=class name, value=error-ui}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.218, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SHIVAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57801/devtoo..., se:cdpVersion: 120.0.6099.218, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41b03f38baeadd46d689d28aae9efb52
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
-at coverFoxPOM.CoverFoxAddressDetailsPage.validatePincodeErrorMsg(CoverFoxAddressDetailsPage.java:31)
-at coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg.Validaate_Pincode_Error_Msg(CF_TC556_Validaate_Pincode_Error_Msg.java:66)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg.Validaate_Pincode_Error_Msg(CF_TC556_Validaate_Pincode_Error_Msg.java:71)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,23 +73,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Validaate_Pincode_Error_Msg]]>
-            </line>
             <line>
               <![CDATA[Taking Screenshot]]>
             </line>
             <line>
-              <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotValidaate_Pincode_Error_Msg_2024.01.19.00.01.05.png]]>
+              <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotValidaate_Pincode_Error_Msg_2024.01.26.16.03.54.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- Validaate_Pincode_Error_Msg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@2b71e916]" started-at="2024-01-19T00:01:05 IST" name="closeBrowser" finished-at="2024-01-19T00:01:10 IST" duration-ms="5119" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@776aec5c]" started-at="2024-01-26T16:03:54 IST" name="closeBrowser" finished-at="2024-01-26T16:04:00 IST" duration-ms="6194" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>
+            </line>
+            <line>
+              <![CDATA[closing driver]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
