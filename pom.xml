@@ -12,7 +12,7 @@
           <version>3.2.3</version>
            <configuration>
            <suiteXmlFiles>
-			   
+			  testngCoverFox.xml  
 		   </suiteXmlFiles>
           </configuration>
           
@@ -92,7 +92,15 @@
     <version>5.1.1</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
 
 
+
+  
   </dependencies>
 </project>
