@@ -81,6 +81,7 @@ public void closeBrowser() throws InterruptedException
 	  Reporter.log("closing browser",true);
 	  Thread.sleep(3000);
 	  driver.close();
+	  
 }
 
 }

@@ -37,26 +37,26 @@ public class CF_TC556_Validaate_Pincode_Error_Msg extends Base {
 	@BeforeMethod
 	public void enterMemberDetails() throws InterruptedException, EncryptedDocumentException, IOException
 	{
-		//Reporter.log("clicking gender button",true);
+		Reporter.log("clicking gender button",true);
 		  home.clickOnMaleButton();
 		  Thread.sleep(1000);
 		  
-		  //Reporter.log("clicking on next button",true);
+		  Reporter.log("clicking on next button",true);
 		  healthPlan.ClickOnNextButton();
 		  Thread.sleep(1000);
 		  
-		  //Reporter.log("handling dropdown button",true);
+		  Reporter.log("handling dropdown button",true);
 		  memberDetails.handleAgeDropDown(Utility.readDataFromExcel(1,0));
 		 
-		  //Reporter.log("clicking on next button",true);
+		  Reporter.log("clicking on next button",true);
 		  memberDetails.clickOnNextButton();
 		  Thread.sleep(1000);
 		  
-		  //Reporter.log("entering pin",true);
+		  Reporter.log("entering pin",true);
 		  addressDetails.enterPincode(Utility.readDataFromExcel(1, 1));
-		  //Reporter.log("entering mobile",true);
+		  Reporter.log("entering mobile",true);
 		  addressDetails.enterMobNum(Utility.readDataFromExcel(1, 2));
-		  //Reporter.log("click on continue",true);
+		  Reporter.log("click on continue",true);
 		  addressDetails.clickOnContinueButton();
 		  Thread.sleep(1000);
 	}
@@ -68,7 +68,7 @@ public class CF_TC556_Validaate_Pincode_Error_Msg extends Base {
 		//Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
 		//Reporter.log("TC is passed", true);
 		
-		Assert.fail();
+		//Assert.fail();
 		Reporter.log("Validating pinCode Error msg", true);
 		boolean result = addressDetails.validatePincodeErrorMsg();
 		Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
