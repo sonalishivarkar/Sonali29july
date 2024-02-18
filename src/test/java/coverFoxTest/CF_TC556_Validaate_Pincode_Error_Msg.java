@@ -47,28 +47,26 @@ public class CF_TC556_Validaate_Pincode_Error_Msg extends Base {
 		  
 		  Reporter.log("handling dropdown button",true);
 		  memberDetails.handleAgeDropDown(Utility.readDataFromExcel(1,0));
-		 
+		  Thread.sleep(1000);
+		  
 		  Reporter.log("clicking on next button",true);
 		  memberDetails.clickOnNextButton();
 		  Thread.sleep(1000);
 		  
-		  Reporter.log("entering pin",true);
-		  addressDetails.enterPincode(Utility.readDataFromExcel(1, 1));
+		  //Reporter.log("entering pin",true);
+		//  addressDetails.enterPincode(Utility.readDataFromExcel(1, 1));
+		//  Thread.sleep(1000);
 		  Reporter.log("entering mobile",true);
 		  addressDetails.enterMobNum(Utility.readDataFromExcel(1, 2));
+		  Thread.sleep(1000);
 		  Reporter.log("click on continue",true);
 		  addressDetails.clickOnContinueButton();
 		  Thread.sleep(1000);
 	}
   @Test
   public void Validaate_Pincode_Error_Msg() {
-	
-	 // Reporter.log("Validating pinCode Error msg", true);
-		//boolean result = addressDetails.validatePincodeErrorMsg();
-		//Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
-		//Reporter.log("TC is passed", true);
-		
-		Assert.fail();
+		 		
+		//Assert.fail();
 		Reporter.log("Validating pinCode Error msg", true);
 		boolean result = addressDetails.validatePincodeErrorMsg();
 		Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
@@ -78,7 +76,7 @@ public class CF_TC556_Validaate_Pincode_Error_Msg extends Base {
   public void closeBrowser() throws InterruptedException
   {
   	  Reporter.log("closing browser",true);
-  	  Thread.sleep(5000);
+  	  Thread.sleep(4000);
   	closeCoverFox();
   }
 }

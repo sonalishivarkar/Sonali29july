@@ -10,7 +10,7 @@ public class CoverFoxAddressDetailsPage {
 	@FindBy(xpath="(//input[@type='number'])[2]")private WebElement mobNumField;
 	@FindBy(className = "next-btn")private WebElement continueButton;
 	//@FindBy(className = "error-ui") private WebElement errorMsg;
-	@FindBy(xpath = "//div[contains(text(),'valid pincode')]") private WebElement errorMsg;
+	@FindBy(xpath="//div[contains(text(),'valid pincode')]") private WebElement errorMsg;
 public	CoverFoxAddressDetailsPage(WebDriver driver)
 	{
 	PageFactory.initElements(driver, this);
