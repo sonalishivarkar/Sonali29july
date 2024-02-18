@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[launching driver]]>
@@ -17,19 +17,16 @@
       <![CDATA[clicking on next button]]>
     </line>
     <line>
-      <![CDATA[entering pin]]>
-    </line>
-    <line>
       <![CDATA[entering mobile]]>
     </line>
     <line>
       <![CDATA[click on continue]]>
     </line>
     <line>
-      <![CDATA[Taking Screenshot]]>
+      <![CDATA[Validating pinCode Error msg]]>
     </line>
     <line>
-      <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotValidaate_Pincode_Error_Msg_2024.02.09.18.54.13.png]]>
+      <![CDATA[TC is passed]]>
     </line>
     <line>
       <![CDATA[closing browser]]>
@@ -37,122 +34,20 @@
     <line>
       <![CDATA[closing driver]]>
     </line>
-    <line>
-      <![CDATA[launching driver]]>
-    </line>
-    <line>
-      <![CDATA[clicking gender button]]>
-    </line>
-    <line>
-      <![CDATA[clicking on next button]]>
-    </line>
-    <line>
-      <![CDATA[handling dropdown button]]>
-    </line>
-    <line>
-      <![CDATA[clicking on next button]]>
-    </line>
-    <line>
-      <![CDATA[entering pin]]>
-    </line>
-    <line>
-      <![CDATA[entering mobile]]>
-    </line>
-    <line>
-      <![CDATA[click on continue]]>
-    </line>
-    <line>
-      <![CDATA[fetching number of result from text]]>
-    </line>
-    <line>
-      <![CDATA[fetching number of result from banner]]>
-    </line>
-    <line>
-      <![CDATA[TC passed]]>
-    </line>
-    <line>
-      <![CDATA[Taking Screenshot]]>
-    </line>
-    <line>
-      <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotCF_TC555_2024.02.09.18.54.43.png]]>
-    </line>
-    <line>
-      <![CDATA[closing browser]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-02-09T18:53:59 IST" name="Suite" finished-at="2024-02-09T18:54:47 IST" duration-ms="48033">
+  <suite started-at="2024-02-18T21:31:46 IST" name="Default suite" finished-at="2024-02-18T21:32:06 IST" duration-ms="19997">
     <groups>
     </groups>
-    <test started-at="2024-02-09T18:53:59 IST" name="Test" finished-at="2024-02-09T18:54:47 IST" duration-ms="48033">
-      <class name="coverFoxTest.CF_TC555_validate_search_result_for_healthcare_policies">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC555_validate_search_result_for_healthcare_policies@1190200a]" started-at="2024-02-09T18:54:20 IST" name="launchBrowser" finished-at="2024-02-09T18:54:25 IST" duration-ms="5388" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[launching driver]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC555_validate_search_result_for_healthcare_policies@1190200a]" started-at="2024-02-09T18:54:25 IST" name="enterMemberDetails" finished-at="2024-02-09T18:54:30 IST" duration-ms="5299" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[clicking gender button]]>
-            </line>
-            <line>
-              <![CDATA[clicking on next button]]>
-            </line>
-            <line>
-              <![CDATA[handling dropdown button]]>
-            </line>
-            <line>
-              <![CDATA[clicking on next button]]>
-            </line>
-            <line>
-              <![CDATA[entering pin]]>
-            </line>
-            <line>
-              <![CDATA[entering mobile]]>
-            </line>
-            <line>
-              <![CDATA[click on continue]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- enterMemberDetails -->
-        <test-method signature="validateTestPlansFromTextAndBanner()[pri:0, instance:coverFoxTest.CF_TC555_validate_search_result_for_healthcare_policies@1190200a]" started-at="2024-02-09T18:54:30 IST" name="validateTestPlansFromTextAndBanner" finished-at="2024-02-09T18:54:44 IST" duration-ms="13257" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[fetching number of result from text]]>
-            </line>
-            <line>
-              <![CDATA[fetching number of result from banner]]>
-            </line>
-            <line>
-              <![CDATA[TC passed]]>
-            </line>
-            <line>
-              <![CDATA[Taking Screenshot]]>
-            </line>
-            <line>
-              <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotCF_TC555_2024.02.09.18.54.43.png]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateTestPlansFromTextAndBanner -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC555_validate_search_result_for_healthcare_policies@1190200a]" started-at="2024-02-09T18:54:44 IST" name="closeBrowser" finished-at="2024-02-09T18:54:47 IST" duration-ms="3139" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[closing browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- coverFoxTest.CF_TC555_validate_search_result_for_healthcare_policies -->
+    <test started-at="2024-02-18T21:31:46 IST" name="Default test" finished-at="2024-02-18T21:32:06 IST" duration-ms="19997">
       <class name="coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@58a9760d]" started-at="2024-02-09T18:53:59 IST" name="launchBrowser" finished-at="2024-02-09T18:54:08 IST" duration-ms="8887" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@5fbe4146]" started-at="2024-02-18T21:31:46 IST" name="launchBrowser" finished-at="2024-02-18T21:31:52 IST" duration-ms="6742" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[launching driver]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@58a9760d]" started-at="2024-02-09T18:54:08 IST" name="enterMemberDetails" finished-at="2024-02-09T18:54:13 IST" duration-ms="5673" status="PASS">
+        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@5fbe4146]" started-at="2024-02-18T21:31:52 IST" name="enterMemberDetails" finished-at="2024-02-18T21:32:00 IST" duration-ms="7990" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[clicking gender button]]>
@@ -167,9 +62,6 @@
               <![CDATA[clicking on next button]]>
             </line>
             <line>
-              <![CDATA[entering pin]]>
-            </line>
-            <line>
               <![CDATA[entering mobile]]>
             </line>
             <line>
@@ -177,57 +69,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterMemberDetails -->
-        <test-method signature="Validaate_Pincode_Error_Msg()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@58a9760d]" started-at="2024-02-09T18:54:13 IST" name="Validaate_Pincode_Error_Msg" finished-at="2024-02-09T18:54:13 IST" duration-ms="18" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg.Validaate_Pincode_Error_Msg(CF_TC556_Validaate_Pincode_Error_Msg.java:71)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="Validaate_Pincode_Error_Msg()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@5fbe4146]" started-at="2024-02-18T21:32:00 IST" name="Validaate_Pincode_Error_Msg" finished-at="2024-02-18T21:32:01 IST" duration-ms="64" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Taking Screenshot]]>
+              <![CDATA[Validating pinCode Error msg]]>
             </line>
             <line>
-              <![CDATA[saved screenshot atD:\Sonali\screenshot\coverfoxscreenshotValidaate_Pincode_Error_Msg_2024.02.09.18.54.13.png]]>
+              <![CDATA[TC is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- Validaate_Pincode_Error_Msg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@58a9760d]" started-at="2024-02-09T18:54:14 IST" name="closeBrowser" finished-at="2024-02-09T18:54:20 IST" duration-ms="6132" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg@5fbe4146]" started-at="2024-02-18T21:32:01 IST" name="closeBrowser" finished-at="2024-02-18T21:32:06 IST" duration-ms="5137" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>
@@ -238,6 +90,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- coverFoxTest.CF_TC556_Validaate_Pincode_Error_Msg -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
